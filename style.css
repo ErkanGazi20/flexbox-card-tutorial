@@ -1,0 +1,48 @@
+/* Step 1: Apply Google Fonts */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Step 2: The Card */
+.card {
+    width: 150px;
+    border: 1px solid #EF9A9A;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Step 3: The Header */
+.card-header {
+    color: #D32F2F;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid #EF9A9A;
+    background-color: #FFEBEE;
+    padding: 5px 10px;
+}
+
+/* Step 4: Main Card Content */
+.card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+/* Step 5: Icon Styles */
+.material-icons {
+    font-size: 36px;
+    color: #D32F2F;
+    margin-bottom: 5px;
+}
+
+/* Step 6: Description Styles */
+.main-description {
+    color: #D32F2F;
+    font-size: 12px;
+    text-align: center;
+}
